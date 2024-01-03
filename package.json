@@ -1,26 +1,24 @@
 {
-  "name": "getting-started",
+  "name": "angelabot",
   "version": "1.0.0",
-  "description": "Discord example app",
-  "main": "app.js",
-  "type": "module",
-  "engines": {
-    "node": "16.x"
-  },
+  "description": "Discord bot as an IoT project",
+  "main": "index.js",
   "scripts": {
-    "start": "node app.js",
-    "register": "node commands.js",
-    "dev": "nodemon app.js"
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Shay DeWael",
-  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dotdm26/AngelaBot.git"
+  },
+  "author": "dotdm26",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dotdm26/AngelaBot/issues"
+  },
+  "homepage": "https://github.com/dotdm26/AngelaBot#readme",
   "dependencies": {
-    "discord-interactions": "^3.2.0",
-    "dotenv": "^16.0.3",
-    "express": "^4.18.2",
-    "node-fetch": "^3.3.0"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.15"
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.3.1"
   }
 }
